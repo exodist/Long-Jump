@@ -17,7 +17,7 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.008001",
   "NAME" => "Long::Jump",
   "PREREQ_PM" => {
-    "Importer" => 0
+    "Importer" => "0.025"
   },
   "TEST_REQUIRES" => {
     "Test2::Suite" => "0.000126"
@@ -30,7 +30,7 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Importer" => 0,
+  "Importer" => "0.025",
   "Test2::Suite" => "0.000126"
 );
 
